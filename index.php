@@ -7,6 +7,14 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+      <header>
+        <h1>BizBook</h1>
+        <div class="header-right">
+          <ul>
+            <li>ログイン</li>
+            <li>ユーザー登録</li>
+          </ul>
+        </div>
+      </header>
   </body>
 </html>
