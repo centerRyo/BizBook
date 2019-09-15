@@ -7,20 +7,41 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1><a href="index.php">BizBook</a></h1>
-      <ul>
-        <li><a href="login.php">ログイン</a></li>
-        <li><a href="signup.php">ユーザー登録</a></li>
-      </ul>
-    </header>
+      <header>
+          <div class="site-width">
+              <h1><a href="index.php">BizBook</a></h1>
+              <nav id="top-nav">
+                  <ul>
+                      <li><a href="signup.php">ユーザー登録</a></li>
+                      <li><a href="login.php">ログイン</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </header>
 
-    <section>
-      <div class="for">
+      <!-- メインコンテンツ -->
+      <div id="content" class="site-width">
 
+          <!-- Main -->
+          <section id="main">
+              <div class="form-container">
+                  <form class="form" action="" method="post">
+                      <h2>ログイン</h2>
+                      <label>
+                          メールアドレス
+                          <input type="text" name="email" value="">
+                      </label>
+                      <label>
+                          パスワード
+                          <input type="password" name="password" value="">
+                      </label>
+                      <input type="checkbox" name="" value="">
+                      次回ログインを省略する
+                      <input type="submit" value="ログイン">
+                  </form>
+              </div>
+          </section>
       </div>
-    </section>
-
     <footer>&copy; BizBook.com All Right Reserved.</footer>
   </body>
 </html>
