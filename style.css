@@ -1,0 +1,95 @@
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-width {
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* ===========================================
+ヘッダー
+=========================================== */
+header {
+    background: #60b2e2;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    float: left;
+    line-height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ===========================================
+ナビゲーション
+=========================================== */
+nav a {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#top-nav {
+    position: relative;
+    float: right;
+    width: 500px;
+    height: 100px;
+}
+
+#top-nav ul {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 450px;
+    height: 100px;
+    list-style: none;
+    line-height: 100px;
+    margin: 0;
+}
+
+#top-nav ul li {
+    float: right;
+}
+
+/* ul {
+    float: right;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+li a, h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+} */
