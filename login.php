@@ -26,7 +26,7 @@
           <section id="main">
               <div class="form-container">
                   <form class="form" action="" method="post">
-                      <h2>ログイン</h2>
+                      <h2 class="title">ログイン</h2>
                       <label>
                           メールアドレス
                           <input type="text" name="email" value="">

@@ -1,3 +1,18 @@
+<?php
+    // ログを取る
+    ini_set('log_errors', 'On');
+    // ログの出力ファイルを指定
+    ini_set('error_log', 'php.log');
+
+    define('MSG01', '入力必須項目です');
+
+    if (!empty($_POST)) {
+        $email = $_POST['email'];
+        $pass = $_POST['pass'];
+        $pass_re = $_POST['pass_re'];
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -20,26 +35,37 @@
       </header>
 
       <!-- メインコンテンツ -->
-      <div id="content" class="site-width">
+      <div id="contents" class="site-width">
 
           <!-- Main -->
           <section id="main">
               <div class="form-container">
                   <form class="form" action="" method="post">
-                      <h2>ユーザー登録</h2>
+                      <h2 class="title">ユーザー登録</h2>
+                      <div class="area-msg">
+
+                      </div>
                       <label>
                           メールアドレス
                           <input type="text" name="email" value="">
                       </label>
+                      <div class="area-msg">
+
+                      </div>
+
                       <label>
-                          パスワード
+                          パスワード<span style="font-size: 12px;">※英数6文字以上</span>
                           <input type="password" name="pass" value="">
                       </label>
+                      <div class="area-msg">
+
+                      </div>
+
                       <label>
                           パスワード（再入力）
                           <input type="password" name="pass_re" value="">
                       </label>
-                      <input type="submit" value="新規登録">
+                      <input type="submit" value="登録する">
                   </form>
               </div>
           </section>
