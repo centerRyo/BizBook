@@ -29,5 +29,7 @@
         </form>
       </section>
     </div>
+    <footer>&copy; BizBook.com All Right Reserved.</footer>
+
   </body>
 </html>
