@@ -35,7 +35,7 @@
                           パスワード
                           <input type="password" name="password" value="">
                       </label>
-                      <input type="checkbox" name="" value="">
+                      <input type="checkbox" name="pass_save" value="">
                       次回ログインを省略する
                       <input type="submit" value="ログイン">
                   </form>
