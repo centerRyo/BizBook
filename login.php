@@ -35,9 +35,14 @@
                           パスワード
                           <input type="password" name="password" value="">
                       </label>
-                      <input type="checkbox" name="pass_save" value="">
-                      次回ログインを省略する
-                      <input type="submit" value="ログイン">
+                      <label>
+                          <input type="checkbox" name="pass_save" value="">
+                          次回ログインを省略する
+                      </label>
+                      <div class="btn-container">
+                          <input type="submit" value="ログイン">
+                      </div>
+                      <p><a href="passRemind.php">パスワードを忘れた方はこちら</a></p>
                   </form>
               </div>
           </section>

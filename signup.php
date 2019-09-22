@@ -1,15 +1,12 @@
 <?php
-    // ログを取る
-    ini_set('log_errors', 'On');
-    // ログの出力ファイルを指定
-    ini_set('error_log', 'php.log');
 
-    define('MSG01', '入力必須項目です');
+require('function.php');
 
     if (!empty($_POST)) {
         $email = $_POST['email'];
         $pass = $_POST['pass'];
         $pass_re = $_POST['pass_re'];
+
     }
 ?>
 

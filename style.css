@@ -66,6 +66,17 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    background: #f6f5f5;
+    vertical-align: middle;
+}
+
+.btn-container {
+    overflow: hidden;
+}
+
 /* ===========================================
 ヘッダー
 =========================================== */
